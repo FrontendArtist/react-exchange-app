@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-bottom: 1px solid #38ffa2;
+    .menu-items{
+        display: flex;
+        flex-direction: row;
+    }
+    h3{
+        color: #13ffb0;
+        
+    }
+}

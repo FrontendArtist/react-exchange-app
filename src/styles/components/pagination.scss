@@ -1,0 +1,39 @@
+.pagination{
+
+    display:flex ;
+    justify-content:center ;
+    gap:10px;
+    align-items: center;
+    margin-top: 15px;
+
+    button{
+        padding: 10px;
+        transition: all 1s ease;
+        background-color: transparent;
+        border: 1px solid #38ffa2 ;
+        color: #c1f7dd;
+        &:hover{
+            color: black;
+            border: 1px solid #38ffa2 ;
+            background: linear-gradient(to right , #38ffa2 , #38f2ff );
+        }
+    }
+
+    p{
+        width: 30px;
+        height: 30px;
+        border: 1px solid #38ffa2;
+        box-shadow:0px 0px 10px #38ffa2;
+        border-radius: 4px;
+        color: #c1f7dd;
+    }
+    .active{
+        background-color: #38ffa2;
+        color: #000;
+        font-weight: bold;
+    }
+
+
+
+
+}

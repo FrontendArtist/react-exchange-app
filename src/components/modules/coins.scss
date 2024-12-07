@@ -1,0 +1,29 @@
+.coin{
+    img{
+        height: 50px;
+        
+    }
+    &-symbol{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+}
+.coins-table{
+    border: 2px solid #38ffa2 ;
+    border-spacing: 20px;
+    box-shadow: 0px 0px 10px 0px #38ffa2;
+    padding: 10px;
+    border-radius: 8px;
+
+    .head-row{
+        color: #38ffa2;
+    }
+    tbody{
+        color: #c1f7dd;
+    }
+
+    th,td{
+        text-align: left;
+    }
+}

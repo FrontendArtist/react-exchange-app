@@ -1,0 +1,43 @@
+.search-box{
+    text-align: left;
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+    position: relative;
+    input[type="text"]{
+        background-color: transparent;
+        width: 200px;
+        height: 30px;
+        border: 2px solid #38ffa2;
+        border-radius: 4px;
+        color: #c1f7dd;
+        transition: all 0.3s ease;
+        padding: 0 10px ;
+        &:focus-visible{
+
+            outline: none;
+        }
+        &:focus{
+            box-shadow: 0px 0px 10px #38ffa2;
+        }
+    }
+    select{
+        background-color: transparent;
+        border: 2px solid #38ffa2;
+        border-radius: 4px;
+        color: #c1f7dd;
+        option{
+            background-color: #1e1e1e;
+        }
+    }
+
+    .results{
+        height: 400px;
+        overflow: auto;
+        position: absolute;
+        left:235px;
+        border: 2px solid #38ffa2;
+        border-radius: 4px;
+        background-color: #1e1e1e;
+    }
+}
